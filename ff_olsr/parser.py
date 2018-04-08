@@ -15,7 +15,6 @@ import re
 from   urlparse           import urlparse
 from   urllib             import urlopen
 from   gzip               import GzipFile
-from   rsclib.HTML_Parse  import Page_Tree, tag
 from   rsclib.autosuper   import autosuper
 from   rsclib.stateparser import Parser
 from   rsclib.IP_Address  import IP4_Address
