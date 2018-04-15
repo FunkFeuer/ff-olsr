@@ -18,8 +18,8 @@ from   gzip               import GzipFile
 from   rsclib.autosuper   import autosuper
 from   rsclib.stateparser import Parser
 from   rsclib.IP_Address  import IP4_Address
-from   olsr.common        import Topo_Entry, HNA_Entry
-from   spider.backfire    import Backfire
+from   ff_olsr.common     import Topo_Entry, HNA_Entry
+from   ff_spider.backfire import Backfire
 
 class Topology (autosuper) :
 
